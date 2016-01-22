@@ -1,0 +1,220 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 20, 2016, 4:23:46 PM
+    Author     : Elena
+*/
+
+
+body {
+  font-family: 'Poiret One', cursive;
+  background: black;
+}
+
+form{
+    text-align:center;
+    background:black;
+    color:white;
+    border-top:10px solid grey;
+    padding-bottom:2em;
+}
+
+h2{
+    padding-top:1em;
+    color:white;
+    font-size:3em;
+
+}
+
+h3{
+    text-align:center;
+}
+
+.edu{
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    background:black;
+    width:25%;
+    float:left;
+    border: 10px solid grey;
+    padding:1em;
+    margin-bottom:2em;
+}
+
+.full{
+    font-family: 'Titillium Web', sans-serif;
+    background:white;
+    
+    width:60%;
+    float:right;
+    margin-right:3em;
+    border:10px solid grey;
+    padding: 1em;
+}
+
+.for{
+    background:white;
+    font-family: 'Titillium Web', sans-serif;
+    border:10px solid grey;
+    width:90%;
+    margin:auto;
+}
+
+.web{
+    background:white;
+    font-family: 'Titillium Web', sans-serif;
+    border:10px solid grey;
+    width:50%;
+    margin:auto;
+
+}
+
+.mob{
+    background:white;
+    border: 10px solid grey;
+        font-family: 'Titillium Web', sans-serif;
+
+   width:50%;
+    margin:auto;
+      
+}
+
+.mob2{
+     background:white;
+         font-family: 'Titillium Web', sans-serif;
+
+    border: 10px solid grey;
+    width:50%;
+    margin:auto;
+    
+}
+
+.re{
+     background:white;
+    font-family: 'Titillium Web', sans-serif;
+    border:10px solid grey;
+    width:50%;
+    margin:auto;
+}
+
+
+
+.butt{
+    background:white;
+    color:black;
+   font-family: 'Raleway', sans-serif;
+}
+
+
+li a{
+    color:white;
+    text-decoration: none;
+    padding:1em;
+  
+}
+
+#navbar li{
+    margin-top:0;
+    display: inline-block;
+    border: 2px solid black;
+    padding:0.5em;
+ 
+    font-family: 'Raleway', sans-serif;
+
+    background: grey;
+    color: black;
+}
+
+#navbar ul{
+    width:100%;
+}
+
+#horizontal{
+    text-align:center;
+}
+#horizontal li:hover{
+    background-color: white;
+    text-decoration:none;
+    color:black;
+   
+}
+
+li a:hover{
+    color:black;
+}
+.logo{
+   float:left;
+    width:20%;
+}
+
+.award{
+    width:40%;
+}
+
+a section:hover{
+    background:white;
+    color:black;
+    transition: transform 2s ease-in-out;
+    transform: scale(2) translateX(60%) translateY(-20%);
+}
+
+a img:hover{
+    transition: opacity 2s ease;
+    opacity: 0;
+}
+
+.linky{
+    background:grey;
+    color:white;
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+    padding:0.2em;
+}
+
+.linky:hover{
+    background:black;
+    
+}
+
+.mobile{
+    width:40%;
+  
+}
+
+.slid{
+    text-align:center;
+}
+
+
+
+.research{
+    width:50%;
+}
+
+.button{
+    color:black;
+    
+
+    text-decoration:none;
+}
+
+.button:hover{
+    background:grey;
+}
+
+.para{
+    padding-right: 3em;
+    padding-left: 3em;
+    text-align:center;
+}
+
+.web:hover{
+    transition: width 3s ease-in-out;
+    width: 90%;
+    
+}
+
+
