@@ -9,46 +9,50 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" href="styles/links.css" type="text/css"/>
         <link rel="stylesheet" href="styles/unslider.css" type="text/css"/>
         <link rel="stylesheet" href="styles/unslider-dots.css" type="text/css"/>
-        
         <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-         
          <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
          <script type="text/javascript" src="js/unslider.js"></script>
         <title>Elena Sparacio Interactive Resume</title>
     </head>
  
- <script>
-	jQuery(document).ready(function($) {
-			$('.slider1').unslider({
-            autoplay:true,
-            arrows: {
-	
-	prev: '<a class="unslider-arrow prev"><</a>',
-	next: '<a class="unslider-arrow next">></a>'}
-});
+    <script type="text/javascript">
+                $(document).ready(function(){
+                    
+                    $("body").css("display","none");
+                    $("body").fadeIn(1000);    
+                });
 
-$('.slider2').unslider({
+    </script>
+    <script>
+    jQuery(document).ready(function($) {
+	$('.slider1').unslider({
             autoplay:true,
             arrows: {
-	
-	prev: '<a class="unslider-arrow prev"><</a>',
-	next: '<a class="unslider-arrow next">></a>'}
-});
+                prev: '<a class="unslider-arrow prev"><</a>',
+                next: '<a class="unslider-arrow next">></a>'}
+        });
 
-$('.slider3').unslider({
+        $('.slider2').unslider({
             autoplay:true,
             arrows: {
-	
-	prev: '<a class="unslider-arrow prev"><</a>',
-	next: '<a class="unslider-arrow next">></a>'}
-});
-		});	
+                prev: '<a class="unslider-arrow prev"><</a>',
+                next: '<a class="unslider-arrow next">></a>'}
+        });
+
+        $('.slider3').unslider({
+            autoplay:true,
+            arrows: {
+                prev: '<a class="unslider-arrow prev"><</a>',
+                next: '<a class="unslider-arrow next">></a>'}
+        });
+    });	
 	</script>
  
     <body>
@@ -70,15 +74,13 @@ $('.slider3').unslider({
             <p class="para">I challenged myself to build this website within a week, and it took
                 me 72 hours to beat the challenge. <b>This website is built from scratch.</b> You
                 can see what it started like <a class="button" href='before.html'><b>HERE.</b></a> The website uses my skills 
-            in Web Development, jQuery, Responsive Web Design,
+            in Web Development, jQuery, Responsive Web Design, Servlets/JSPs
             object-oriented programming, user interfaces, web architecture concepts,
-            MCV design patterns, debugging, etc. It utilizes the languages Java, HTML, CSS, and JavaScript.</p>
-             
-            <p class="para">I uploaded my code for the website onto my GitHub account, so feel free to take a look at the 
+            MCV design patterns, debugging, etc. It utilizes the languages Java, HTML, CSS, and JavaScript.</p> 
+            <p class="para">I uploaded my code for the website onto my <a href="https://github.com/esparacio/resumesite"> GitHub account</a>, so feel free to take a look at the 
               code. </p>
         </section>
-        
-            <section class="mob">
+        <section class="mob">
             <h3>Mobile: Around Campus App</h3>
             <p class="para"><i>Around Campus</i> is an application that allows
             the user to see the buildings that are open (intuitive UI: green for open, red for close) on campus along with their respective
@@ -93,8 +95,7 @@ $('.slider3').unslider({
                     <li class="slid"><img class="mobile" src="images/mobile/ac3map.png" alt="map"></li>
                 </ul>
             </div>
-            </section>
-       
+        </section>
         <section class="re">
             <h3>Research</h3>
             <p class="para">My undergraduate research focuses on innovative mobile application development through
@@ -128,7 +129,5 @@ $('.slider3').unslider({
                 </ul>
             </div>
         </section>
-            
-       
     </body>
 </html>

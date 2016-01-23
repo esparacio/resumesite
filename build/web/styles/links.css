@@ -1,157 +1,12 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
+
 /* 
     Created on : Jan 20, 2016, 4:23:46 PM
-    Author     : Elena
+    Author     : Elena Sparacio (C)
 */
 
-
-body {
-  font-family: 'Poiret One', cursive;
-  background: black;
-}
-
-form{
-    text-align:center;
-    background:black;
-    color:white;
-    border-top:10px solid grey;
-    padding-bottom:2em;
-}
-
-h2{
-    padding-top:1em;
-    color:white;
-    font-size:3em;
-
-}
-
-h3{
-    text-align:center;
-}
-
-.edu{
-    color:white;
-    font-family: 'Titillium Web', sans-serif;
-    background:black;
-    width:25%;
-    float:left;
-    border: 10px solid grey;
-    padding:1em;
-    margin-bottom:2em;
-}
-
-.full{
-    font-family: 'Titillium Web', sans-serif;
-    background:white;
-    
-    width:60%;
-    float:right;
-    margin-right:3em;
-    border:10px solid grey;
-    padding: 1em;
-}
-
-.for{
-    background:white;
-    font-family: 'Titillium Web', sans-serif;
-    border:10px solid grey;
-    width:90%;
-    margin:auto;
-}
-
-.web{
-    background:white;
-    font-family: 'Titillium Web', sans-serif;
-    border:10px solid grey;
-    width:50%;
-    margin:auto;
-
-}
-
-.mob{
-    background:white;
-    border: 10px solid grey;
-        font-family: 'Titillium Web', sans-serif;
-
-   width:50%;
-    margin:auto;
-      
-}
-
-.mob2{
-     background:white;
-         font-family: 'Titillium Web', sans-serif;
-
-    border: 10px solid grey;
-    width:50%;
-    margin:auto;
-    
-}
-
-.re{
-     background:white;
-    font-family: 'Titillium Web', sans-serif;
-    border:10px solid grey;
-    width:50%;
-    margin:auto;
-}
-
-
-
-.butt{
-    background:white;
-    color:black;
-   font-family: 'Raleway', sans-serif;
-}
-
-
-li a{
-    color:white;
-    text-decoration: none;
-    padding:1em;
-  
-}
-
-#navbar li{
-    margin-top:0;
-    display: inline-block;
-    border: 2px solid black;
-    padding:0.5em;
- 
-    font-family: 'Raleway', sans-serif;
-
-    background: grey;
-    color: black;
-}
-
-#navbar ul{
-    width:100%;
-}
-
-#horizontal{
-    text-align:center;
-}
-#horizontal li:hover{
-    background-color: white;
-    text-decoration:none;
-    color:black;
-   
-}
-
-li a:hover{
-    color:black;
-}
-.logo{
-   float:left;
-    width:20%;
-}
-
-.award{
-    width:40%;
+a img:hover{
+    opacity: 0;
+    transition: opacity 2s ease;
 }
 
 a section:hover{
@@ -161,43 +16,23 @@ a section:hover{
     transform: scale(2) translateX(60%) translateY(-20%);
 }
 
-a img:hover{
-    transition: opacity 2s ease;
-    opacity: 0;
-}
-
-.linky{
-    background:grey;
-    color:white;
-    text-decoration:none;
-    font-family: 'Raleway', sans-serif;
-    padding:0.2em;
-}
-
-.linky:hover{
-    background:black;
-    
-}
-
-.mobile{
+.award{
     width:40%;
-  
 }
 
-.slid{
-    text-align:center;
+body {
+   background: black;
+   font-family: 'Poiret One', cursive;
 }
 
-
-
-.research{
-    width:50%;
+.butt{
+    background:white;
+    color:black;
+    font-family: 'Raleway', sans-serif;
 }
 
 .button{
     color:black;
-    
-
     text-decoration:none;
 }
 
@@ -205,16 +40,323 @@ a img:hover{
     background:grey;
 }
 
-.para{
-    padding-right: 3em;
-    padding-left: 3em;
+.edu{
+    background:black;
+    border: 10px solid grey;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    float:left;
+    margin-bottom:2em;
+    padding:1em;
+    width:25%;
+}
+
+.for{
+    background:white;
+    border:10px solid grey;
+    font-family: 'Titillium Web', sans-serif;
+    margin:auto;
+    width:90%;
+   
+}
+
+form{
+    background:black;
+    border-top:10px solid grey;
+    color:white;
+    padding-bottom:2em;
+    text-align:center;  
+}
+
+.full{
+    background:white;
+    border:10px solid grey;
+    font-family: 'Titillium Web', sans-serif;
+    float:right;
+    margin-right:3em;
+    padding: 1em;
+    width:60%;
+}
+
+h2{
+    color:white;
+    font-size:3em;
+    padding-top:1em;
+}
+
+h3{
     text-align:center;
 }
 
-.web:hover{
-    transition: width 3s ease-in-out;
-    width: 90%;
+h4{
+    font-size:1em;
+    text-align:center;
+    color:grey;
+}
+
+#horizontal{
+    text-align:center;
+}
+
+#horizontal li:hover{
+    background-color: white;
+    color:black;
+    text-decoration:none;
+}
+
+li a{
+    color:white;
+    padding:1em;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:black;
+}
+
+.linky{
+    background:grey;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    padding:0.2em;
+    text-decoration:none;   
+}
+
+.linky:hover{
+    background:black; 
+}
+
+.logo{
+   float:left;
+   width:20%;
+}
+
+.mob{
+    background:white;
+    border: 10px solid grey;
+    font-family: 'Titillium Web', sans-serif;
+    margin:auto;
+    width:50%;
+}
+
+.mob2{
+     background:white;
+     border: 10px solid grey;
+     font-family: 'Titillium Web', sans-serif;
+     margin:auto;
+     width:50%;
+}
+
+.mobile{
+    width:40%;
+}
+
+#navbar li{
+    background: grey;
+    border: 2px solid black;
+    color: black;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin-top:0;
+    padding:0.5em;
+}
+
+#navbar ul{
+    width:100%;
+}
+
+.para{
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align:center;
+}
+
+.re{
+    background:white;
+    border:10px solid grey;
+    font-family: 'Titillium Web', sans-serif;
+     margin:auto;
+    width:50%;
+}
+
+.research{
+    width:50%;
+}
+
+.slid{
+    text-align:center;
+}
+
+.web{
+    background:white;
+    border:10px solid grey;
+    font-family: 'Titillium Web', sans-serif;
+    margin:auto;
+    width:50%;
+}
+
+@media only screen and (max-width: 1050px){
+ 
+    .edu{
+        background:black;
+        border: 10px solid grey;
+        color:white;
+        float:left;
+        font-family: 'Titillium Web', sans-serif;
+        margin-bottom:2em;
+        padding:1em;
+        transition: width 2s ease;
+        width:25%;
+    }
+
+    .full{
+        background:white;
+        border:10px solid grey;
+        margin-right:3em;
+        padding: 1em;
+        font-family: 'Titillium Web', sans-serif;
+        float:right;
+        transition: width 2s ease; 
+        width:50%;
+    }
+    .mob{
+        background:white;
+        border: 10px solid grey;
+        font-family: 'Titillium Web', sans-serif;
+        margin:auto;
+        width:70%;    
+    }
+
+    .mob2{
+        background:white;
+        border: 10px solid grey;
+        font-family: 'Titillium Web', sans-serif;
+        margin:auto;
+        width:70%;
+    }
     
+    .re{
+        background:white;
+        border:10px solid grey;
+        font-family: 'Titillium Web', sans-serif;
+        margin:auto;
+        width:70%;
+    }
+
+    .web{
+        background:white;
+        border:10px solid grey;
+        font-family: 'Titillium Web', sans-serif;
+        margin:auto;
+        width:70%;
+    }    
+}
+
+@media only screen and (max-width: 650px){
+ 
+    a section:hover{
+        background:black;
+        color:white;
+        transform:none;
+   }
+
+    .edu{
+        background:black;
+        border: 10px solid grey;
+        color:white;
+        float:left;
+        font-family: 'Titillium Web', sans-serif;
+        margin-bottom:2em;
+        padding:1em;
+        transition: width 2s ease;
+        width:20%;    
+    }
+
+    .full{
+        background:white;
+        border:10px solid grey;
+        float:right;
+        font-family: 'Titillium Web', sans-serif;
+        margin-right:3em;
+        padding: 1em;
+        transition: width 2s ease;
+        width:45%;
+    }
+    .mob{
+        background:white;
+        border: 10px solid grey;
+        font-family: 'Titillium Web', sans-serif;
+        margin:auto;
+        width:70%;
+      }
+
+    .mob2{
+        background:white;
+        border: 10px solid grey;
+        font-family: 'Titillium Web', sans-serif;
+        margin:auto;
+        width:70%;
+    }
+
+    .re{
+        background:white;
+        border:10px solid grey;
+        font-family: 'Titillium Web', sans-serif;
+        margin:auto;
+        width:70%;
+    }
+
+    .web{
+        background:white;
+        border:10px solid grey;
+        font-family: 'Titillium Web', sans-serif;
+        margin:auto;
+        width:70%;
+    } 
+}
+
+@media only screen and (max-width: 500px){
+
+    .edu{
+        background:black;
+        border: 10px solid grey;
+        color:white;
+        float:right;
+        font-family: 'Titillium Web', sans-serif;
+        margin:auto;
+        margin-bottom:2em;
+        padding:1em;
+        transition: width 2s ease;
+        width:90%;
+    }
+
+    .full{
+        background:white;
+        border:10px solid grey;
+        float:right;
+        font-family: 'Titillium Web', sans-serif;
+        margin:auto;
+        padding: 1em;
+        transition: width 2s ease;
+        width:90%;
+    }
+    
+    h2{
+        font-size:2em;
+        margin-top:-1em;
+        text-indent:-2em;
+        transition: font-size 2s ease;
+        transition: text-indent 2s ease;
+    }
+    
+    .logo{
+        visibility:hidden;
+    }  
 }
 
 
+@media only screen and (max-width: 350px){
+    h2{
+        text-indent:0;
+    }
+}

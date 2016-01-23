@@ -7,7 +7,7 @@
 
 <!DOCTYPE html>
 <html>
-    <%@page contentType="text/html" pageEncoding="UTF-8"%>
+ <%@page contentType="text/html" pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
  <c:import url="/includes/header.html"/>
     <body>
@@ -21,8 +21,7 @@
                     <li><a href="port.jsp">PORTFOLIO</a></li>
                     <li><a href="pdfs/resume.pdf">RESUME</a></li>
                     <li><a href="contact.jsp">CONTACT ME</a></li>
-                    
-            </ul>
+                </ul>
         </div>
         <a href="pdfs/research.pdf">
         <section class="edu">
@@ -34,16 +33,15 @@
                 be patient. </i></p>
         </section></a>
         <div>
-              <section class="full">
-                  <p><b>Programming Languages:</b> Java, Python, HTML, CSS, EL, XML, JavaScript, SQL, LUA</p>
-                  <p><b>Experience with:</b> Web Development, Responsive Web Design, jQuery Servlets/JSPs, 
+        <section class="full">
+            <p><b>Programming Languages:</b> Java, Python, HTML, CSS, EL, XML, JavaScript, SQL, LUA</p>
+            <p><b>Experience with:</b> Web Development, Responsive Web Design, jQuery, Servlets/JSPs, 
             object-oriented programming, databases, JDBC, user interfaces, web architecture concepts,
             MCV design patterns, debugging, Agile/Scrum</p>
-                  <p><b>Applications:</b> Github, Openshift, Apache Tomcat, MySQL, mySQLWorkbench, Processing,
+            <p><b>Applications:</b> Github, Openshift, Apache Tomcat, MySQL, mySQLWorkbench, Processing,
             Particle.io, Android Studio, Netbeans, Eclipse, Sublime, Mathematica, Microsoft Office, 
             Expression Web, Photoshop, Social Media Platforms</p>
-                  <p><b>Operating Systems:</b> Mac OSX, Windows, Linux, Android, iOS</p>
-              </section></div>
-         
+            <p><b>Operating Systems:</b> Mac OSX, Windows, Linux, Android, iOS</p>
+        </section></div>
     </body>
 </html>

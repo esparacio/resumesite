@@ -1,6 +1,6 @@
 <%-- 
-    Document   : contact
-    Created on : Jan 20, 2016, 2:52:58 PM
+    Document   : thanks
+    Created on : Jan 22, 2016, 3:33:04 PM
     Author     : Elena
 --%>
 
@@ -9,7 +9,7 @@
  <%@page contentType="text/html" pageEncoding="UTF-8"%>
  <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
  <c:import url="/includes/header.html"/>
-    <body>
+ <body>
         <a href="index.html"><img class="logo" src="images/logospace.png" alt="logo"></a>
         <h2>Contact Me</h2>
         <div id ="horizontal">
@@ -27,21 +27,7 @@
             <h3>3095 Arborwoods Drive&#44; Alpharetta&#44; GA 30022 &#126; 
             Phone&#58; 908&#45;256&#45;6414 &#126; E&#45;mail&#58; esparacio&#64;elon.edu </h3>
             <h3> </h3>
-            <form action="contact" method="post">
-        <input type="hidden" name="action" value="add"> 
-        <p><i>${message}</i></p>
-        <p>If you want to contact me via the website, please fill out the form.</p>
-        <p><label>Name: </label><input name="fullName" type="text" 
-        value="${fullName}" required /></p>
-        <p><label>Email Address: </label><input name="emailAddress" 
-        type="email" value="${emailAddress}" required /></p>
-        <p><label>Company: </label><input name="companyName" 
-        type="text" value="${companyName}" required/> </p>
-        <p><label>Message: </label><input name="message"
-        type="text" vale="${message}" required/></p>
-        <label>         </label><input class= "butt" type="submit" 
-        value="SUBMIT">
-        </section>
-       
+        <h4>Thank you for your interest, <span>${fullName}</span>. I will be in touch
+        with you shortly.</h4>
     </body>
 </html>

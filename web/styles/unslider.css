@@ -29,3 +29,16 @@
 .unslider-arrow:hover{
     color:blue;
 }
+
+@media only screen and (max-width: 650px){
+    .unslider-arrow{
+        position:absolute;
+               left:30%;
+               font-size:3em;
+               transform: translateY(-150px);
+               z-index:20;
+               cursor:pointer;
+               color:black;
+               transition: transform 2s ease;
+    }
+}
